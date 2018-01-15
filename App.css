@@ -1,0 +1,131 @@
+body {
+
+  background: #d2a800;
+  color: #FFFFFF;
+  /* background-image: url('http://spliffmobile.com/wallpapers/download/013-beer-mobile-wallpaper.png'); */
+  background-position: center top;
+  background-repeat:repeat-x;
+
+}
+
+#body-container {
+
+}
+
+
+.jumbotron {
+  background-color: #03afff;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+
+#memes {
+  display: block;
+  position: relative;
+  background-color: #FFFFFF;
+  min-width: 50%;
+
+}
+
+#meme-title {
+  display: flex;
+  color: #000000;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#gifs {
+position: relative;
+top: 50%;
+left: 50%;
+
+ /* Half the height */
+margin-left: -120px; /* Half the width */
+}
+
+#brews {
+  display: flexk;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #FFFFFF;
+  min-width: 50%;
+  min-height: 50em
+
+}
+
+#beer-title {
+  display: flex;
+  justify-content: center;
+  color: #000000;
+}
+
+.beer-results {
+  color: #000000;
+  display: block;
+  width: 100%;
+
+}
+
+
+#label {
+  display: flex;
+  align-self: center;
+}
+
+#name {
+  padding-top: 1em;
+}
+
+hr {
+  background-color: #FFFFFF;
+  width: 100%;
+}
+
+button {
+  padding: 0.9em;
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+
+
+
+input[type=text] {
+    width: 150px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 50%;
+}
